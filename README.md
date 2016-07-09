@@ -12,9 +12,21 @@ These are the packages that I want in my personal setup.
 -  stattleshipR: an API to get access to a wide range of sports data 
 
 
-## Usage
+## Clone with Git and Build yourself
 
-Get the image
+
+## Get from Docker Hub
+
+```
+git clone https://github.com/Btibert3/r-addons.git
+cd r-addons
+docker build -t brock/r-addons .
+docker run -d -p 8787:8787 brock/r-addons
+```
+
+## Pulling from the docker
+
+Get the image, which __does not currently work__
 
 ```
 docker pull btibert3/r-addons
