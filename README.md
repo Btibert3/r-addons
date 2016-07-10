@@ -24,21 +24,19 @@ docker build -t brock/r-addons .
 docker run -d -p 8787:8787 brock/r-addons
 ```
 
-## Pulling from the docker
+## Easy Way: Pull from Docker
 
-Get the image, which __does not currently work__
+It's as easy as ...
 
 ```
 docker pull btibert3/r-addons
 ```
 
-Fire up the image
+and fire up the container as a daemon with the port `8787` exposed for RStudio Server
 
 ```
 docker run -d -p 8787:8787 btibert3/r-addons
 ```
-
-to run the daemonized container, with the necessary Rstudio Server port exposed.
 
 To verify that it is running
 
