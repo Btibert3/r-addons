@@ -12,15 +12,6 @@ These are the packages that I want in my personal setup.
 -  stattleshipR: an API to get access to a wide range of sports data 
 
 
-## Clone with Git and Build yourself
-
-```
-git clone https://github.com/Btibert3/r-addons.git
-cd r-addons
-docker build -t brock/r-addons .
-docker run -d -p 8787:8787 brock/r-addons
-```
-
 ## Easy Way: Pull from Docker
 
 It's as easy as ...
@@ -43,3 +34,14 @@ docker ps
 
 If you want to stop the instance, simply grab the idea from the `docker ps` command and `docker stop <instance id here>`
 
+
+
+
+## Clone with Git and Build yourself
+
+```
+git clone https://github.com/Btibert3/r-addons.git
+cd r-addons
+docker build -t brock/r-addons .
+docker run -d -p 8787:8787 brock/r-addons
+```
