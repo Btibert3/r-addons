@@ -14,9 +14,6 @@ These are the packages that I want in my personal setup.
 
 ## Clone with Git and Build yourself
 
-
-## Get from Docker Hub
-
 ```
 git clone https://github.com/Btibert3/r-addons.git
 cd r-addons
