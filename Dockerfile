@@ -9,4 +9,7 @@ RUN install2.r --error \
   && r -e 'source("https://raw.githubusercontent.com/MangoTheCat/remotes/master/install-github.R")$value("mangothecat/remotes")' \
   && r -e 'remotes::install_github("nicolewhite/RNeo4j")' \
   && r -e 'remotes::install_github("stattleship/stattleship-r@helpers")' \
+  && r -e 'remotes::install_github("smongosoup/rmongodb")' \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+mongosoup/rmongodb
