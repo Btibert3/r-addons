@@ -12,5 +12,3 @@ RUN install2.r --error \
   && r -e 'remotes::install_github("smongosoup/rmongodb")' \
   && r -e 'remotes::install_github("mkearney/rtweet")' \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
-
-mongosoup/rmongodb
