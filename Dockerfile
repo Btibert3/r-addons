@@ -10,6 +10,7 @@ RUN install2.r --error \
   && r -e 'remotes::install_github("nicolewhite/RNeo4j")' \
   && r -e 'remotes::install_github("stattleship/stattleship-r@helpers")' \
   && r -e 'remotes::install_github("smongosoup/rmongodb")' \
+  && r -e 'remotes::install_github("mkearney/rtweet")' \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 mongosoup/rmongodb
