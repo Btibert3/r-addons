@@ -11,4 +11,5 @@ RUN install2.r --error \
   && r -e 'remotes::install_github("stattleship/stattleship-r@helpers")' \
   && r -e 'remotes::install_github("jeroen/mongolite")' \
   && r -e 'remotes::install_github("mkearney/rtweet")' \
+  && r -e 'install.packages("tidyverse")' \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
